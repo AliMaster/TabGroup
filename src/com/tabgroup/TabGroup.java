@@ -80,7 +80,7 @@ public class TabGroup extends LinearLayout {
             sendAccessibilityEvent(AccessibilityEvent.TYPE_VIEW_SELECTED);
         }
     }
-	static interface OnTabSelectionChanged {
+	public static interface OnTabSelectionChanged {
 		void onTabSelectionChanged(int checkedid);
 	}
 	public void setSelectionChangedListener(
