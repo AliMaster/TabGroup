@@ -2,7 +2,6 @@ package com.tabgroup;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
 
 import com.tabgroup.TabGroup.OnTabSelectionChanged;
 import com.tabview.R;
@@ -28,8 +27,8 @@ public class MainActivity extends Activity implements OnTabSelectionChanged{
 	}
 
 	@Override
-	public void onTabSelectionChanged(View view, boolean clicked) {
-		System.out.println("onTabSelectionChanged id="+view.getId()+";"+clicked);
+	public void onTabSelectionChanged(int checkId) {
+		System.out.println("onTabSelectionChanged id="+checkId);
 	}
 
 }

@@ -53,7 +53,7 @@ public class TabGroup extends LinearLayout {
         		getChildTabViewAt(mTabIndex).setSelected(true);
         		mSelectedTab = mTabIndex;
         		if (mSelectionChangedListener != null) {
-        			mSelectionChangedListener.onTabSelectionChanged(v, true);
+        			mSelectionChangedListener.onTabSelectionChanged(v.getId());
         		}
 			}
         }  
@@ -81,7 +81,7 @@ public class TabGroup extends LinearLayout {
         }
     }
 	static interface OnTabSelectionChanged {
-		void onTabSelectionChanged(View view, boolean clicked);
+		void onTabSelectionChanged(int checkedid);
 	}
 	public void setSelectionChangedListener(
 			OnTabSelectionChanged mSelectionChangedListener) {
