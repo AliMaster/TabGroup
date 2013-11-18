@@ -53,7 +53,7 @@ public class TabGroup extends LinearLayout {
         		getChildTabViewAt(mTabIndex).setSelected(true);
         		mSelectedTab = mTabIndex;
         		if (mSelectionChangedListener != null) {
-        			mSelectionChangedListener.onTabSelectionChanged(v.getId());
+        			mSelectionChangedListener.onTabSelectionChanged(mSelectedTab);
         		}
 			}
         }  
@@ -75,13 +75,15 @@ public class TabGroup extends LinearLayout {
         }
         mSelectedTab = index;
         getChildTabViewAt(mSelectedTab).setSelected(true);
-
+        if (mSelectionChangedListener != null) {
+			mSelectionChangedListener.onTabSelectionChanged(mSelectedTab);
+		}
         if (isShown()) {
             sendAccessibilityEvent(AccessibilityEvent.TYPE_VIEW_SELECTED);
         }
     }
 	public static interface OnTabSelectionChanged {
-		void onTabSelectionChanged(int checkedid);
+		void onTabSelectionChanged(int position);
 	}
 	public void setSelectionChangedListener(
 			OnTabSelectionChanged mSelectionChangedListener) {

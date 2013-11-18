@@ -27,8 +27,8 @@ public class MainActivity extends Activity implements OnTabSelectionChanged{
 	}
 
 	@Override
-	public void onTabSelectionChanged(int checkId) {
-		System.out.println("onTabSelectionChanged id="+checkId);
+	public void onTabSelectionChanged(int position) {
+		System.out.println("onTabSelectionChanged position="+position);
 	}
 
 }
