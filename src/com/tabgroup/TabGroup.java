@@ -62,6 +62,9 @@ public class TabGroup extends LinearLayout {
     public int getTabCount() {
         return getChildCount();
     }
+    public int getCurrentTabIndext(){
+    	return mSelectedTab;
+    }
     public View getChildTabViewAt(int index) {
         return getChildAt(index);
     }
