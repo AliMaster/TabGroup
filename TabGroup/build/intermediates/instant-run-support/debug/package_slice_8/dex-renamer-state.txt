@@ -1,4 +1,0 @@
-#Mon May 14 15:59:10 CST 2018
-base.0=/Users/alimaster/Documents/DEV/ASWorkSpace/TabGroup/TabGroup/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
-renamed.0=classes.dex
-file.0=/Users/alimaster/Documents/DEV/ASWorkSpace/TabGroup/TabGroup/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex

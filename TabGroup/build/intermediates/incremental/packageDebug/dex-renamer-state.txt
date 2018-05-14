@@ -1,7 +1,0 @@
-#Mon May 14 15:59:10 CST 2018
-base.0=/Users/alimaster/Documents/DEV/ASWorkSpace/TabGroup/TabGroup/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a7b193a3a71cd7ec98492f8f633b87558f9e7e0
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/alimaster/Documents/DEV/ASWorkSpace/TabGroup/TabGroup/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bdc021bf2d3004d223c88b6c99824ff518e1ffc6/classes.dex
-base.1=/Users/alimaster/Documents/DEV/ASWorkSpace/TabGroup/TabGroup/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bdc021bf2d3004d223c88b6c99824ff518e1ffc6
-file.0=/Users/alimaster/Documents/DEV/ASWorkSpace/TabGroup/TabGroup/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a7b193a3a71cd7ec98492f8f633b87558f9e7e0/classes.dex
